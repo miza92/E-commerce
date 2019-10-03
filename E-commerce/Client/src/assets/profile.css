@@ -1,0 +1,65 @@
+#profile{
+    border: 4px solid #20B2AA;
+    border-radius: 6px;
+    padding: 20px;
+    
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 50em;
+    min-width: 10em;
+    /* background-image: url('photofond.jpg');
+    background-size: 700px; */
+    position: relative;
+    overflow: hidden;
+}
+
+#profile:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url('photofond.jpg') 0 0 repeat;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(100deg);
+    }
+
+.butn {
+    background: #20B2AA;
+    background-image: -webkit-linear-gradient(top, #20B2AA, #20B2AA);
+    background-image: -moz-linear-gradient(top, #20B2AA, #20B2AA);
+    background-image: -ms-linear-gradient(top, #20B2AA, #20B2AA);
+    background-image: -o-linear-gradient(top, #20B2AA, #20B2AA);
+    background-image: linear-gradient(to bottom, #20B2AA, #20B2AA);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .butn#right {
+    float: right;
+    margin-bottom: 40px; 
+  }
+  
+  .butn:hover {
+    background: #29948d;
+    background-image: -webkit-linear-gradient(top, #29948d, #29948d);
+    background-image: -moz-linear-gradient(top, #29948d, #29948d);
+    background-image: -ms-linear-gradient(top, #29948d, #29948d);
+    background-image: -o-linear-gradient(top, #29948d, #29948d);
+    background-image: linear-gradient(to bottom, #29948d, #29948d);
+    text-decoration: none;
+  }
+
+  h4 {
+      color: #18534f; 
+  }

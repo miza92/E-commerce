@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Variant{% endblock %}
+
+{% block body %}
+    <h1>Variant</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ variant.id }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('variant_index') }}">back to list</a>
+
+    <a href="{{ path('variant_edit', {'id': variant.id}) }}">edit</a>
+
+    {{ include('variant/_delete_form.html.twig') }}
+{% endblock %}

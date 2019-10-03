@@ -1,0 +1,25 @@
+.nav-item1{
+    width: 170px;
+    height: 100px;
+}
+.navbar-nav1{
+    display: inline-table;
+    text-align: center;
+    position: absolute; /* postulat de départ */
+    right: 50%; left: 35%; top: 105%;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.footer{
+    display:inline; 
+    width: 170px;
+    height: 100px;
+}
+
+.inc{
+    font-size: 55%;
+    color: #20B2AA;
+    width: 400px;
+    height: 50px;
+    margin-left: 180%;
+}

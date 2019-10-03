@@ -1,0 +1,21 @@
+.form{
+    margin-left: 400px;
+    margin-top: -100px;
+}
+
+
+.button {
+    color: black;
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    
+  }
+
+.input{
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    margin-left: -80px;
+}
+  
