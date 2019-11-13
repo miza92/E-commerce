@@ -1,2 +1,2 @@
 # E-commerce
-E-commerce with symfony and react js 
+E-commerce with react js and symfony 
