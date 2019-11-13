@@ -1,10 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# The start
+Before start you need to install all the dependencies.<br/>
+So copy and paste this command in your terminal :<br/>
 
-In the project directory, you can run:
-
-### `npm start`
+with **npm**<br/>
+``` npm install && npm start``` <br/>
+with **yarn**<br/>
+``` yarn install && yarn start```<br/>
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
